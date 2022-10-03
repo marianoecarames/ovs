@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/Favicon.svg" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Otra Vez Sopa Diseño Gráfico</title>
+  </head>
+  <body>
+    <header class="main__header">
+      <img width="179" height="34" src="./img/Logo.svg" alt="Logo Agencia" />
+      <nav>
+        <ul class="main__header__nav">
+          <li>
+            <a href="./index.html"> Inicio </a>
+          </li>
+          <li>
+            <a href="./nosotros.html"> Nosotros </a>
+          </li>
+          <li>
+            <a href="./servicios.html"> Servicios </a>
+          </li>
+          <li>
+            <a href="./proyectos.html"> Proyectos </a>
+          </li>
+          <li>
+            <a class="main__header__nav-button" href="./contacto.html"> Contacto </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    
+
+    <!--INICIO PAGE CONTACTO-->
+    <section class="proyectos">
+      <div class="proyectos__wrapper">
+        <h2 class="proyectos__wrapper-title">Contactanos</h2>
+        <p class="proyectos__wrapper-paragraph">
+          Pedí tu presupuesto sin cargo (EN CONSTRUCCIÓN ESTA SECCIÓN VA A IR CON CARRUSEL DE BOOTSTRAP)
+        </p>
+      </div>
+      
+    </section>
+            <!--FIN CONTACTO-->
+    
+
+    <section id="Contacto">
+      <h2>Contactanos</h2>
+      <p>
+       ¡Te podemos ayudar! Solicitá tu presupuesto sin cargo.
+      </p>
+    <form action="">
+      <label for="name"> Nombre y apellido </label>
+      <input type="text" name="name" placeholder="Colocar nombre y apellido" />
+      <label for="email"> Email</label>
+      <input type="email" name="email" placeholder="Colocar email" />
+      <label for="password"> Contraseña </label>
+      <input
+        type="password"
+        name="password"
+        placeholder="Ingresar contraseña"
+      />
+      <label for="message"> Mensaje </label>
+      <textarea name="message" cols="20" rows="5"></textarea>
+      <label for="bussines"> Pyme</label>
+      <input type="radio" name="bussines" value="Pyme" />
+      <label for="bussines"> Gran Empresa </label>
+      <input type="radio" name="bussines" value="Empresa grande" />
+      <label for="bussines"> Agencia de publicidad </label>
+      <input type="radio" name="bussines" value="Agencia de publicidad" />
+      <label for="checkbox"> Acepta términos y condiciones </label>
+      <input type="checkbox" name="accept" value="Si" />
+      <label for="services"> Servicios </label>
+      <select name="services">
+        <option value="diseño gráfico">Diseño Gráfico</option>
+        <option value="diseño web">Diseño Web</option>
+        <option value="marketing digital">Marketing Digital</option>
+      </select>
+
+      <input type="submit" value="Enviar formulario" />
+      <input type="reset" value="Limpiar formulario" />
+    </form>
+
+   <!--INICIO FOOTER-->
+   <footer>
+    <img src="./img/Logo.svg" alt="Logo Agencia" />
+    <p>CABA, Buenos Aires, Argentina.</p>
+    <p>otravezsopa.dg@gmail.com</p>
+    <p>Copyright ® 2022 Todos los derechos reservados </p>
+</footer>
+<!--FIN FOOTER-->
+
+</body>
+</html>
